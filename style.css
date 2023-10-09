@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 li{
@@ -57,13 +57,23 @@ nav div > ul{
 }
 
 nav div > ul li{
-    padding: 1em 1.4em;
+    padding: 1em 2.8em;
+}
+
+nav div > ul li a{
+    color: #fff;
+    font-weight: 600;
+}
+
+nav div > ul li a:hover{
+    border-bottom: 4px solid #0a89f8;
 }
 
 .language{
     display: flex;
     gap: 0.5em;
     color: #fff;
+    align-items: center;
 }
 
 i{
