@@ -52,10 +52,12 @@ nav > div{
 
 nav div > ul{
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    padding-right: 30em;
     color: #fff;
+}
+
+nav div > ul li{
+    padding: 1em 1.4em;
 }
 
 .language{
@@ -66,4 +68,25 @@ nav div > ul{
 
 i{
     color: #fff;
+}
+
+.acceuil{
+    border-left: 2px solid #0a89f8;
+    border-right: 2px solid #ca233d;
+}
+
+.apropos{
+    border-right: 2px solid #e9d61f;
+}
+
+.besoin{
+    border-right: 2px solid #0a89f8;
+}
+
+.faq{
+    border-right: 2px solid #ca233d;
+}
+
+.Contact{
+    border-right: 2px solid #e9d61f;
 }
