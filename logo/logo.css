@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.stick{
+    display: flex;
+    flex-direction: column;
+    width: 8px;
+    margin-right: 50px;
+}
+
+.stick > div{
+    height: 110px;
+}
+
+.blue{
+    background-color: #08aae8;
+}
+
+.yellow{
+    background-color: #f7ea00;
+}
+
+.red{
+    background-color: #e6141e;
+}
+
+.container p{
+    font-size: 65px;
+    width:550px;
+    font-weight: 700;
+}

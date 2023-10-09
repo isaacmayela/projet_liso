@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,700;0,800;1,200;1,300;1,700;1,800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 4em;
+}
+
+.header_container img{
+    width: 4em;
+}
+
+.logo_minin{
+    width: 10em !important;
+}
+
+.header_container > div{
+    display: flex;
+}
+
+.drc{
+    margin-left: 0.5em;
+    font-weight: 700;
+}
+
+nav{
+    padding: 0.8em 4em;
+    background-color: #050505;
+}
+
+nav > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 30em;
+    color: #fff;
+}
+
+.language{
+    display: flex;
+    gap: 0.5em;
+    color: #fff;
+}
+
+i{
+    color: #fff;
+}
